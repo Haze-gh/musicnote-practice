@@ -1,0 +1,62 @@
+.room {
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    height: 62px;
+    display: flex;
+}
+
+.bar {
+    position: relative;
+    width: 42px;
+}
+
+.G-clef {
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    left: -10px;
+}
+
+.F-clef {
+    position: absolute;
+    z-index: 1;
+    top: 6px;
+    left: 2px;
+}
+
+.beat {
+    position: absolute;
+    z-index: 1;
+    top: 3px;
+    left: 40px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+hr {
+    background: #9a9a9a;
+}
+
+
+.out-line {
+    position: absolute;
+    width: 40px;
+    left: 70px;
+    height: 17px;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.beat span:first-of-type {
+    border-bottom: 1px solid black;
+}
+
+.note-tip {
+    position: relative;
+}
+
+.note-tip span {
+    position: absolute;
+    top: 0;
+    font-size: 0.5em;
+}
